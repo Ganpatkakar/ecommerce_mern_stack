@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import {isLoggedIn, isAdmin, userDetails} from "../actions/common/common_actions";
+import {isLoggedIn, isAdmin, userDetails} from "../../redux/actions/common/common_actions";
 import {Link} from "react-router-dom";
 
 class Header extends Component {

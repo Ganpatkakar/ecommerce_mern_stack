@@ -1,0 +1,82 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.29.6",
+  "hash": "3b73621d2947f75eec7b",
+  "publicPath": "",
+  "outputPath": "/Users/gkakar/CodeBase/GkMart/public",
+  "assetsByChunkName": {
+    "client": [
+      "style.css",
+      "client.3b73621d2947f75eec7b.js"
+    ],
+    "vendors~client": "vendors~client.3b73621d2947f75eec7b.js"
+  },
+  "assets": [
+    {
+      "name": "client.3b73621d2947f75eec7b.js",
+      "size": 79054,
+      "chunks": [
+        "client"
+      ],
+      "chunkNames": [
+        "client"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "style.css",
+      "size": 41,
+      "chunks": [
+        "client"
+      ],
+      "chunkNames": [
+        "client"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "vendors~client.3b73621d2947f75eec7b.js",
+      "size": 1286590,
+      "chunks": [
+        "vendors~client"
+      ],
+      "chunkNames": [
+        "vendors~client"
+      ],
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "client": {
+      "chunks": [
+        "vendors~client",
+        "client"
+      ],
+      "assets": [
+        "vendors~client.3b73621d2947f75eec7b.js",
+        "style.css",
+        "client.3b73621d2947f75eec7b.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "client": {
+      "chunks": [
+        "vendors~client",
+        "client"
+      ],
+      "assets": [
+        "vendors~client.3b73621d2947f75eec7b.js",
+        "style.css",
+        "client.3b73621d2947f75eec7b.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "children": []
+}

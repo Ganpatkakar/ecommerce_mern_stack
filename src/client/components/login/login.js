@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import axios from 'axios';
-import {isAdmin, isLoggedIn, userDetails} from "../actions/common/common_actions";
+import axios from 'axios/index';
+import {isAdmin, isLoggedIn, userDetails} from "../../redux/actions/common/common_actions";
 import {connect} from "react-redux";
 
 class Login extends Component {
@@ -43,7 +43,7 @@ class Login extends Component {
                     this.props.history.push('/');
                 }
             }).catch(error => {
-                console.log("error occurred with the login request");
+                console.log("error occurred with the login request", error);
         });
     };
 
